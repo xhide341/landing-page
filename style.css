@@ -15,18 +15,19 @@ body {
 
 .logo {
     display: flex;
-    justify-content: flex-start;
+    width: 40px;
+    height: auto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-bottom: 16px;
     background: #1f2937;
     flex-shrink: 0;
-    min-width: 100px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .header-links {
@@ -54,19 +55,30 @@ li, a, .secondary-text {
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
-    padding-left: 500px;
-    padding-right: 500px;
-    margin-bottom: 16px;
     background: #1f2937;
     padding-bottom: 16px;
-    gap: 50px;
-    min-width: auto;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.signup-button-1,
+.signup-button-1:focus,
+.signup-button-1 {
+    color: white;
+    background: #3882f6;
+    border-color: white;
+    /* border: 0 solid white; */
+    border-radius: 4px;
+    width: 120px;
+    height: auto;
+    padding: 8px 8px;
+    text-align: center;
 }
 
 .primary-text {
@@ -80,14 +92,6 @@ li, a, .secondary-text {
     text-wrap: wrap;
     flex-wrap: wrap;
     width: 500px;
-}
-
-button {
-    display: flex;
-    padding: 8px;
-    width: 72px;
-    border-radius: 6px;
-    justify-content: center;
 }
 
 .information-section {
@@ -200,12 +204,15 @@ blockquote {
     padding: 48px;
 }
 
-.signup-container button {
+.signup-button-2,
+.signup-button-2:focus,
+.signup-button-2:active {
     color: white;
     background: #3882f6;
     border-color: white;
+    border-radius: 4px;
     width: 120px;
-    height: 36px;
+    height: auto;
     padding: 8px 8px;
     text-align: center;
 }
