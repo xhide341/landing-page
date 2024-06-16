@@ -148,5 +148,96 @@ button {
 
 .quote-section {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #e5e7eb;
+    padding: 48px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+blockquote {
+    display: flex;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 750px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0  0 16px 0;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    width: 1000px;
+    border-radius: 8px;
+    margin: 48px;
+    padding: 48px;
+}
+
+.signup-container button {
+    color: white;
+    background: #3882f6;
+    border-color: white;
+    width: 120px;
+    height: 36px;
+    padding: 8px 8px;
+    text-align: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    margin: 0;
+}
+
+.text-container p {
+    display: flex;
+    margin: 0;
+}
+
+.signup-text-1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-text-2 {
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    padding: 32px;
 }
