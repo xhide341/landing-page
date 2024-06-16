@@ -73,7 +73,7 @@ li, a, .secondary-text {
     color: white;
     background: #3882f6;
     border-color: white;
-    /* border: 0 solid white; */
+    /* border: 2px solid white; */
     border-radius: 4px;
     width: 120px;
     height: auto;
@@ -210,6 +210,7 @@ blockquote {
     color: white;
     background: #3882f6;
     border-color: white;
+    /* border: 2px solid white; remove other border attributes when applying this*/
     border-radius: 4px;
     width: 120px;
     height: auto;
